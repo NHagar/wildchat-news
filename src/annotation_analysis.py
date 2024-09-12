@@ -14,6 +14,7 @@ margin_of_error = 1.96 * standard_error
 lower_bound = proportion - margin_of_error
 upper_bound = proportion + margin_of_error
 
+print(f"Count of records classified as 1: {records_classified_as_1}")
 print(f"Proportion of records classified as 1: {proportion:.4f}")
 print(f"95% Confidence Interval: ({lower_bound:.4f}, {upper_bound:.4f})")
 # Get contents of all records classified as 1
